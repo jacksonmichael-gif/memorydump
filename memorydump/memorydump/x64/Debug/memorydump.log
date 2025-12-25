@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\kagayamaharuo\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(12,10): warning C4101: 'size': ローカル変数は 1 度も使われていません。
+  memorydump.vcxproj -> C:\Users\kagayamaharuo\Documents\GitHub\memorydump\memorydump\x64\Debug\memorydump.exe
