@@ -1,0 +1,5 @@
+# Visual Studio IntelliSense キャッシュ
+*.ipch
+.ipch/
+*.VC.db
+*.VC.opendb

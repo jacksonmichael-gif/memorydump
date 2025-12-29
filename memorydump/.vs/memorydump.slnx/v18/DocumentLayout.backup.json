@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kagayamaharuo\\Documents\\GitHub\\memorydump\\memorydump\\",
+  "WorkspaceRootPath": "C:\\Users\\mjaku\\Documents\\GitHub\\memorydump\\memorydump\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBF66864-19CD-4859-91F0-820583615877}|memorydump\\memorydump.vcxproj|C:\\Users\\kagayamaharuo\\Documents\\GitHub\\memorydump\\memorydump\\memorydump\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EBF66864-19CD-4859-91F0-820583615877}|memorydump\\memorydump.vcxproj|C:\\Users\\mjaku\\Documents\\GitHub\\memorydump\\memorydump\\memorydump\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EBF66864-19CD-4859-91F0-820583615877}|memorydump\\memorydump.vcxproj|solutionrelative:memorydump\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\kagayamaharuo\\Documents\\GitHub\\memorydump\\memorydump\\memorydump\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\mjaku\\Documents\\GitHub\\memorydump\\memorydump\\memorydump\\main.cpp",
               "RelativeDocumentMoniker": "memorydump\\main.cpp",
-              "ToolTip": "C:\\Users\\kagayamaharuo\\Documents\\GitHub\\memorydump\\memorydump\\memorydump\\main.cpp",
+              "ToolTip": "C:\\Users\\mjaku\\Documents\\GitHub\\memorydump\\memorydump\\memorydump\\main.cpp",
               "RelativeToolTip": "memorydump\\main.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAnwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAGoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-25T13:29:50.527Z",
               "EditorCaption": ""

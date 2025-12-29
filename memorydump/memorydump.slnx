@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="memorydump/memorydump.vcxproj" />
+  <Project Path="memorydump/memorydump.vcxproj" Id="ebf66864-19cd-4859-91f0-820583615877" />
 </Solution>
