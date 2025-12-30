@@ -530,7 +530,7 @@ void monitormemory(HANDLE hProcess){
         T now;
         if (readValue<T>(hProcess, address, now)) {
             initialValue = now;
-            cout << "Initial value at 0x" << hex << address << dec << " = " << now << endl;
+            cout << "value at 0x" << hex << address << dec << endl;
         } else {
             cout << "Failed to read initial value.\n";
         }
@@ -551,6 +551,7 @@ void monitormemory(HANDLE hProcess){
             T now;
             if (readValue<T>(hProcess, address, now)) {
                 if (now != oldVal) {
+                    printf("\033[1K");
                     printf("\r%d", now); // 同じ行に表示を更新
                     initialValue = now;
                 }

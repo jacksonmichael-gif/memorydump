@@ -1,7 +1,7 @@
 ﻿  main.cpp
 C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(554,28): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'double' です
-      C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(554,28):
+C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(555,28): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'double' です
+      C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(555,28):
       テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
           C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(549,9):
           コンパイル対象の関数 テンプレート インスタンス化 'void std::visit<monitormemory::<lambda_2>,SearchValue&,void>(_Callable &&,SearchValue &)' のリファレンスを確認してください
@@ -24,8 +24,8 @@ C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(554,28
               _T1=float &
           ]
   
-C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(554,28): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'monitormemory::<lambda_2>::()::T' です
-      C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(554,28):
+C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(555,28): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'monitormemory::<lambda_2>::()::T' です
+      C:\Users\mjaku\Documents\GitHub\memorydump\memorydump\memorydump\main.cpp(555,28):
       テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
           C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\variant(1569,10):
           コンパイルされている変数テンプレート 'const bool _Variant_all_visit_results_same<void,`monitormemory'::`4'::<lambda_2>,std::_Meta_list<double &> >' のリファレンスをご参照ください
