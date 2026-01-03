@@ -7,7 +7,13 @@ int main(){
     while(1){
         printf("1:write 2:read 3:exit\n");
         int choice;
-        scanf("%d", &choice);
+        if(!scanf("%d", &choice)){
+            printf("invalid input\n");
+            // clear the invalid input
+            char ch;
+            while((ch = getchar()) != '\n' && ch != EOF);
+            continue;
+        }
         if(choice == 3){
             break;
         }
@@ -18,19 +24,34 @@ int main(){
             switch(sousa){
                 case 1:
                     printf("enter int number:");
-                    scanf("%d", &a);
+                    if(!scanf("%d", &a)){
+                        printf("invalid input\n");
+                        // clear the invalid input
+                        char ch;
+                        while((ch = getchar()) != '\n' && ch != EOF);
+                    }
                     break;
                 case 2:
                     printf("enter float number:");
-                    scanf("%f", &b);
+                    if(!scanf("%f", &b)){
+                        printf("invalid input\n");
+                        // clear the invalid input
+                        char ch;
+                        while((ch = getchar()) != '\n' && ch != EOF);
+                    }
                     break;
                 case 3:
                     printf("enter double number:");
-                    scanf("%f", &b);
+                    if(!scanf("%lf", &c)){
+                        printf("invalid input\n");
+                        // clear the invalid input
+                        char ch;
+                        while((ch = getchar()) != '\n' && ch != EOF);
+                    }
                     break;
                 default:
                     printf("invalid option\n");
-                    continue;
+                    break;
             }
         }
         else if(choice == 2){

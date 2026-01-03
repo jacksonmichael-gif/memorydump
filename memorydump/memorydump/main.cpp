@@ -381,6 +381,15 @@ SearchValue inputValueByType(int type) {
         double v; cout << "double value: "; cin >> v; return v;
     }
 }
+SearchValue makeValueByType(int type) {
+    if (type == 1) {
+        int v; v = 0; return v;
+    } else if (type == 2) {
+        float v; v = 0.0f; return v;
+    } else {
+        double v; v = 0.0; return v;
+    }
+}
 
 void showFoundSample() {
     size_t show = min<size_t>(g_found.size(), 20);
@@ -521,8 +530,8 @@ void monitormemory(HANDLE hProcess){
     int type;
     cin >> type;
 
-    // 最初の値を読み取る
-    SearchValue initialValue = inputValueByType(type);
+    // valuetype に応じた初期値を作成
+    SearchValue initialValue = makeValueByType(type);
 
     // 実際のメモリから読み取る
     visit([&](auto&& dummy) {
